@@ -208,3 +208,7 @@ __marimo__/
 
 #LLM API Keys
 .env
+
+#Vector Index Database
+*.faiss
+*.pkl
