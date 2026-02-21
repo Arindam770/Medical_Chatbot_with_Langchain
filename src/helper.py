@@ -1,3 +1,4 @@
+import os
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -67,7 +68,7 @@ def create_vector_database(text, embeding_model):
 #Save the Index
 def save_vertor_database(vector_db):
     
-    vector_db.save_local("vector_database\\oncology_faiss_index")
+    vector_db.save_local(os.path.join("vector_database", "oncology_faiss_index"))
 
 #Load the locally stored Index
 def load_local_vector_database(database_name, embeding_model):
@@ -79,3 +80,14 @@ def load_local_vector_database(database_name, embeding_model):
     )
 
     return vector_db
+
+def retrive_relevent_document(vector_db):
+    retriever = vector_db.as_retriever(
+    search_type="mmr",
+    search_kwargs={
+        "k": 5,
+        "fetch_k": 20,
+        "lambda_mult": 0.7
+        }
+    )
+    return retriever

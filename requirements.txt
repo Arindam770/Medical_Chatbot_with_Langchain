@@ -1,5 +1,5 @@
 langchain
-flask
+fastapi
 sentence-transformers
 pypdf
 python-dotenv
@@ -8,5 +8,6 @@ langchain-community
 langchain-text-splitters
 langchain-huggingface
 faiss-cpu
+streamlit
 
--e.
+-e .

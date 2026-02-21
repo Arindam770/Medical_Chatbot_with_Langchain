@@ -2,7 +2,6 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
 
 
-
 chat_template = ChatPromptTemplate.from_messages(
     [
         ("system","""You are a senior medical oncologist. Use ONLY the provided medical context to answer. 
