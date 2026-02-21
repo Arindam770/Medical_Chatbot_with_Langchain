@@ -6,14 +6,5 @@ setup(
     author="Arindam Mondal",
     author_email="arindam03215@gmail.com",
     packages=find_packages(),
-    install_requires=[
-        "langchain",
-        "flask",
-        "sentence-transformers",
-        "pypdf",
-        "python-dotenv",
-        "langchain-openai",
-        "langchain-pinecone",
-        "langchain-community",
-    ]
+    install_requires=[]
 )
