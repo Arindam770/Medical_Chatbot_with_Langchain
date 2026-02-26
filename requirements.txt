@@ -9,5 +9,6 @@ langchain-text-splitters
 langchain-huggingface
 faiss-cpu
 streamlit
+deepeval
 
 -e .

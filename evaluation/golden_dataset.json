@@ -1,0 +1,42 @@
+[
+  {
+    "input": "What are the common side effects of chemotherapy?",
+    "expected_output": "Common side effects of chemotherapy include nausea, vomiting, fatigue, hair loss (alopecia), decreased appetite, mouth sores, increased susceptibility to infections due to lowered white blood cell counts, easy bruising or bleeding from low platelet counts, and anemia. The specific side effects vary depending on the chemotherapy drugs used and the patient's overall health."
+  },
+  {
+    "input": "What is the difference between benign and malignant tumors?",
+    "expected_output": "Benign tumors are non-cancerous growths that do not invade nearby tissues or spread to other parts of the body (metastasize). They tend to grow slowly and are often well-defined. Malignant tumors are cancerous, can invade surrounding tissues, and have the potential to metastasize to distant organs through the blood or lymphatic system. Malignant tumors generally require more aggressive treatment."
+  },
+  {
+    "input": "How does radiation therapy work in cancer treatment?",
+    "expected_output": "Radiation therapy uses high-energy beams such as X-rays or proton beams to damage the DNA of cancer cells, preventing them from growing and dividing. It can be delivered externally (external beam radiation) or internally (brachytherapy). Radiation therapy may be used as a primary treatment, before surgery to shrink tumors (neoadjuvant), after surgery to destroy remaining cells (adjuvant), or for palliative care to relieve symptoms."
+  },
+  {
+    "input": "What are the stages of cancer and what do they mean?",
+    "expected_output": "Cancer staging describes the extent of cancer in the body. The most common system is TNM staging: T (Tumor size), N (lymph Node involvement), M (Metastasis). Stages range from Stage 0 (carcinoma in situ) to Stage IV (distant metastasis). Stage I indicates a small, localized tumor, Stage II and III indicate larger tumors or regional lymph node spread, and Stage IV indicates cancer has spread to distant organs. Staging guides treatment decisions and prognosis."
+  },
+  {
+    "input": "What is immunotherapy and how is it used in oncology?",
+    "expected_output": "Immunotherapy is a type of cancer treatment that harnesses the body's own immune system to fight cancer. It includes approaches like immune checkpoint inhibitors (e.g., pembrolizumab, nivolumab) that block proteins preventing immune cells from attacking cancer, CAR-T cell therapy that engineers a patient's T cells to target cancer, and cancer vaccines. Immunotherapy has shown significant success in melanoma, lung cancer, and several other cancer types."
+  },
+  {
+    "input": "What is a biopsy and why is it performed?",
+    "expected_output": "A biopsy is a medical procedure in which a small sample of tissue is removed from the body for examination under a microscope. It is the definitive method for diagnosing cancer. Biopsies help determine whether a growth is benign or malignant, identify the type and grade of cancer, and guide treatment planning. Types include needle biopsy, surgical biopsy, and endoscopic biopsy."
+  },
+  {
+    "input": "What are tumor markers and how are they used?",
+    "expected_output": "Tumor markers are substances, often proteins, produced by cancer cells or by normal cells in response to cancer. They can be found in blood, urine, or tissue. Examples include PSA (prostate cancer), CA-125 (ovarian cancer), CEA (colorectal cancer), and AFP (liver cancer). Tumor markers are used for screening, diagnosing cancer, monitoring treatment effectiveness, and detecting recurrence, though they are rarely used alone for diagnosis."
+  },
+  {
+    "input": "What is palliative care in oncology?",
+    "expected_output": "Palliative care in oncology is specialized medical care focused on relieving symptoms, pain, and the stress of serious illness like cancer. It aims to improve quality of life for both the patient and their family. Palliative care can be provided alongside curative treatments and is appropriate at any stage of cancer. It addresses physical symptoms like pain and nausea, emotional and psychological distress, and helps with treatment decision-making."
+  },
+  {
+    "input": "How does targeted therapy differ from traditional chemotherapy?",
+    "expected_output": "Targeted therapy uses drugs designed to attack specific molecular targets or pathways that are involved in cancer cell growth and survival, such as HER2 in breast cancer or EGFR in lung cancer. Unlike traditional chemotherapy, which kills rapidly dividing cells indiscriminately (affecting both cancer and normal cells), targeted therapy is more precise and generally causes fewer side effects. Examples include trastuzumab (Herceptin) and imatinib (Gleevec)."
+  },
+  {
+    "input": "What lifestyle changes can help reduce cancer risk?",
+    "expected_output": "Key lifestyle changes to reduce cancer risk include: avoiding tobacco use, maintaining a healthy weight, engaging in regular physical activity (at least 150 minutes of moderate exercise per week), eating a balanced diet rich in fruits, vegetables, and whole grains while limiting processed and red meats, limiting alcohol consumption, protecting skin from excessive sun exposure, getting vaccinated against cancer-related viruses (HPV, hepatitis B), and attending recommended cancer screenings."
+  }
+]

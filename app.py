@@ -35,7 +35,7 @@ if user_input:
         {"role": "user", "content": user_input}
     )
 
-    response, updated_history = generate_response(
+    response, updated_history, _ = generate_response(
         user_input,
         st.session_state.chat_history,
         retriever

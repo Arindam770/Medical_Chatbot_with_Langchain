@@ -11,6 +11,7 @@ def generate_response(question, chat_history, retriever):
 
     docs = retriever.invoke(question)
     context = "\n\n".join(doc.page_content for doc in docs)
+    retrieval_context = [doc.page_content for doc in docs]
 
     prompt = chat_template.invoke({
         "document": context,
@@ -26,4 +27,4 @@ def generate_response(question, chat_history, retriever):
     # keep last 6 messages
     chat_history = chat_history[-6:]
 
-    return response.content, chat_history
+    return response.content, chat_history, retrieval_context
